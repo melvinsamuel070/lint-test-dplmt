@@ -48,5 +48,5 @@ Deployed automatically after each push to `master`.
 The GitHub Actions configuration is located at:
 
 ```bash
-.github/workflows/main.yml
+.github/workflows/deploy.yml
 Testing deployment
