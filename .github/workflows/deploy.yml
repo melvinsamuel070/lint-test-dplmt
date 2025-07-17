@@ -23,8 +23,9 @@ jobs:
 
       - name: 🧼 Lint code
         run: |
-          npx eslint . || true
+          run: npx eslint . --config eslint.config.js || true
 
+      
       - name: ✅ Run tests
         run: npm test -- --watchAll=false
 
