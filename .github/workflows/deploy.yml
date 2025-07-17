@@ -22,8 +22,8 @@ jobs:
         run: npm install
 
       - name: 🧼 Lint code
-        run: |
-          run: npx eslint . --config eslint.config.js || true
+        run: npx eslint . --config eslint.config.js || true
+          
 
       
       - name: ✅ Run tests
