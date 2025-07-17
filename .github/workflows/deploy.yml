@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: 🧼 Lint code
-        run: npx eslint . --config eslint.config.js || true
+        run: npx eslint . --config eslintrc.js || true
           
 
       
